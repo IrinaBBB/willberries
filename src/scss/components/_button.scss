@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: $color-blue-light;
+    border: none;
+    color: $color-white;
+    font-weight: 900;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    &__icon {
+        margin-right: 1rem;
+    }
+}

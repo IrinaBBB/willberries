@@ -1,0 +1,20 @@
+.navigation {
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-grey-light;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}

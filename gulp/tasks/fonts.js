@@ -34,7 +34,7 @@ export const ttfToWoff = () => {
         .pipe(app.gulp.dest(`${app.path.build.fonts}`));
 }
 export const fontsStyle = () => {
-    let fontsFile = `${app.path.srcFolder}/scss/fonts.scss`;
+    let fontsFile = `${app.path.srcFolder}/scss/base/_fonts.scss`;
     fs.readdir(app.path.build.fonts, function (err, fontsFiles) {
         if (fontsFiles) {
             if (!fs.existsSync(fontsFile)) {
