@@ -1,0 +1,78 @@
+.card {
+    height: 37.5rem;
+    border-radius: 1rem;
+    padding: 6rem 4.6rem 8rem;
+    color: $color-base-grey-light;
+
+    &--1 {
+        background: #E3E2E3 url(../../img/card-image-1.jpg) no-repeat top right;
+        background-size: cover;
+    }
+
+    &--2 {
+        color: $color-white;
+        background: #E3E2E3 url(../../img/card-image-2.jpg) no-repeat top right;
+        background-size: cover;
+
+        .card__title {
+            color: $color-white;
+        }
+    }
+
+    &--3 {
+        background: #CCD5E6 url(../../img/card-image-3.png) no-repeat top right 20%;
+        background-size: contain;
+        .card__title {
+            max-width: 35rem;
+            font-size: 4rem;
+            line-height: 5rem;
+        }
+
+        .card__text {
+            max-width: 32rem;
+        }
+    }
+
+    &--4 {
+        background: $color-red-light url(../../img/card-image-4.png) no-repeat top right;
+        background-size: contain;
+        padding: 2.5rem;
+
+        .card__title {
+            font-size: 2.5rem;
+            max-width: 20rem;
+            color: $color-white;
+        }
+
+        .card__text {
+            color: $color-red-pale;
+        }
+
+        .card__price {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            color: $color-white;
+        }
+    }
+
+    &__title {
+        font-family: 'Roboto Slab', sans-serif;
+        display: block;
+        max-width: 22.2rem;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-bottom: 1.5rem;
+        color: $color-base-grey;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        max-width: 17.5rem;
+        margin-bottom: 2rem;
+    }
+}

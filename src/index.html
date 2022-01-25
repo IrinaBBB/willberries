@@ -9,49 +9,148 @@
     <title>Willberries</title>
 </head>
 <body>
-    <header class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-2">
-                <a href="/" class="logo-link">
-                    <img width="129" src="img/logo.svg" alt="logo: Willberries" class="logo-link__image">
-                </a>
+<header class="container">
+    <div class="row justify-content-between align-items-center">
+        <div class="col-2">
+            <a href="/" class="logo-link">
+                <img width="129" src="img/logo.svg" alt="logo: Willberries" class="logo-link__image">
+            </a>
+        </div>
+        <!-- /.col-2 -->
+        <div class="col-6">
+            <nav class="navigation">
+                <ul class="navigation__list d-flex justify-content-around">
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Womens</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Mens</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Goods</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Accessories</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Brands</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- /.col-6 -->
+        <div class="col-2 d-flex justify-content-end">
+            <button class="button">
+                <img class="button__left" src="img/cart.svg" alt="icon: cart">
+                <span class="button__right">Cart</span>
+            </button>
+        </div>
+        <!-- /.col-2 -->
+    </div>
+    <!-- /.row -->
+</header>
+
+<div class="slider">
+    <section class="slide slide--1">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-lg-1">
+                    <span class="label">Bestseller</span>
+                    <h2 class="slide__title">Sweater Choker Neck</h2>
+                    <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in
+                        several colours. Free shipping to stores.</p>
+                    <button class="button">
+                        <span class="button__left">$319</span>
+                        <span class="button__right">Shop now</span>
+                    </button>
+                </div>
+                <!-- /.col-4 -->
             </div>
-            <!-- /.col-2 -->
-            <div class="col-6">
-                <nav class="navigation">
-                    <ul class="navigation__list d-flex justify-content-around">
-                        <li class="navigation__item">
-                            <a href="" class="navigation__link">Womens</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="" class="navigation__link">Mens</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="" class="navigation__link">Goods</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="" class="navigation__link">Accessories</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="" class="navigation__link">Brands</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="" class="navigation__link">Blog</a>
-                        </li>
-                    </ul>
-                </nav>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <div class="slider__nav">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <button class="slider__button">
+                        <img src="img/arrow-prev.svg" alt="icon: previous">
+                    </button>
+                </div>
+                <!-- /.col-1 -->
+                <div class="col-1">
+                    <button class="slider__button">
+                        <img src="img/arrow-next.svg" alt="icon: next">
+                    </button>
+                </div>
+                <!-- /.col-1 -->
             </div>
-            <!-- /.col-6 -->
-            <div class="col-2 d-flex justify-content-end">
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.slider__nav -->
+</div>
+<!-- /.slider -->
+<div class="card-container container">
+    <div class="row">
+        <div class="col-6">
+            <div class="card card--1">
+                <h3 class="card__title">Fashion Month Ready in Capital Shop</h3>
+                <p class="card__text">Bags & Accessories & Lingerie & Sportswear &
+                    Beauty & Swimwear</p>
                 <button class="button">
-                    <img class="button__icon" src="img/cart.svg" alt="icon: cart">
-                    <span class="button__text">Cart</span>
+                    <span class="button__left">View all</span>
+                    <img src="img/right-arrow.svg" alt="icon: arrow" class="button__icon">
                 </button>
             </div>
-            <!-- /.col-2 -->
+            <!-- /.card -->
         </div>
-        <!-- /.row -->
-    </header>
+        <!-- /.col-6 -->
+        <div class="col-6">
+            <div class="card card--2">
+                <h3 class="card__title">Catch the Sun: Spring Break Styles From $5.99</h3>
+                <p class="card__text">Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit</p>
+                <button class="button">
+                    <span class="button__left">View all</span>
+                    <img src="img/right-arrow.svg" alt="icon: arrow" class="button__icon">
+                </button>
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col-6 -->
+        <div class="col-9">
+            <div class="card card--3 mt-4">
+                <span class="label">Bestseller</span>
+                <h3 class="card__title">Poplin Top With Sleeve Bow</h3>
+                <p class="card__text">Poplin top with roll neckline, long sleeves</p>
+                <button class="button">
+                    <span class="button__left">$129</span>
+                    <span class="button__right">Shop now</span>
+                </button>
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col-9 -->
+        <div class="col-3">
+            <div class="card card--4 mt-4">
+                <h3 class="card__title">Printed Shirt with a Bow</h3>
+                <p class="card__text">Pink/Sky Blue/Yellow</p>
+                <span class="card__price">
+                    $129
+                </span>
+        </div>
+        <!-- /.col-3 -->
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+
 <script src="./js/app.min.js"></script>
 </body>
 </html>

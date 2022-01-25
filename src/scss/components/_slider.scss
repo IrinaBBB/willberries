@@ -1,0 +1,45 @@
+.slider {
+    position: relative;
+
+    .slide {
+        padding-top: 9rem;
+        padding-bottom: 11rem;
+
+        &--1 {
+            background: $color-blue-grey url('../../img/slide-image-1.png') no-repeat top right 5%;
+        }
+
+        &__title {
+            color: $color-base-grey;
+            font-family: 'RobotoSlab', sans-serif;
+            font-size: 5.5rem;
+            line-height: 7rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        &__description {
+            font-size: 1.8rem;
+            color: $color-base-grey-light;
+            line-height: 3rem;
+            max-width: 33rem;
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+
+        .slider__button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            img {
+                opacity: .6;
+            }
+        }
+    }
+}
