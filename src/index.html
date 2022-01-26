@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>-->
     <link rel="stylesheet" href="css/style.min.css">
     <title>Willberries</title>
 </head>
@@ -53,37 +54,78 @@
     <!-- /.row -->
 </header>
 
-<div class="slider">
-    <section class="slide slide--1">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 offset-lg-1">
-                    <span class="label">Bestseller</span>
-                    <h2 class="slide__title">Sweater Choker Neck</h2>
-                    <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in
-                        several colours. Free shipping to stores.</p>
-                    <button class="button">
-                        <span class="button__left">$319</span>
-                        <span class="button__right">Shop now</span>
-                    </button>
+<div class="slider swiper">
+    <div class="swiper-wrapper">
+        <section class="slide slide--1 swiper-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 offset-lg-1">
+                        <span class="label">Bestseller</span>
+                        <h2 class="slide__title">Sweater Choker Neck</h2>
+                        <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in
+                            several colours. Free shipping to stores.</p>
+                        <button class="button">
+                            <span class="button__left">$319</span>
+                            <span class="button__right">Shop now</span>
+                        </button>
+                    </div>
+                    <!-- /.col-4 -->
                 </div>
-                <!-- /.col-4 -->
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+            <!-- /.container -->
+        </section>
+        <section class="slide slide--1 swiper-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 offset-lg-1">
+                        <span class="label">Bestseller</span>
+                        <h2 class="slide__title">Sweater Choker Neck</h2>
+                        <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in
+                            several colours. Free shipping to stores.</p>
+                        <button class="button">
+                            <span class="button__left">$319</span>
+                            <span class="button__right">Shop now</span>
+                        </button>
+                    </div>
+                    <!-- /.col-4 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <section class="slide slide--1 swiper-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 offset-lg-1">
+                        <span class="label">Bestseller</span>
+                        <h2 class="slide__title">Sweater Choker Neck</h2>
+                        <p class="slide__description">Women’s pearl basic knit sweater with a round neck. Available in
+                            several colours. Free shipping to stores.</p>
+                        <button class="button">
+                            <span class="button__left">$319</span>
+                            <span class="button__right">Shop now</span>
+                        </button>
+                    </div>
+                    <!-- /.col-4 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+    </div>
+    <!-- /.swiper-wrapper -->
     <div class="slider__nav">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-1">
-                    <button class="slider__button">
+                    <button class="slider__button swiper-button-prev">
                         <img src="img/arrow-prev.svg" alt="icon: previous">
                     </button>
                 </div>
                 <!-- /.col-1 -->
                 <div class="col-1">
-                    <button class="slider__button">
+                    <button class="slider__button swiper-button-next">
                         <img src="img/arrow-next.svg" alt="icon: next">
                     </button>
                 </div>
@@ -94,6 +136,7 @@
         <!-- /.container -->
     </div>
     <!-- /.slider__nav -->
+    <div class="swiper-pagination"></div>
 </div>
 <!-- /.slider -->
 <div class="card-container container">
@@ -143,14 +186,15 @@
                 <span class="card__price">
                     $129
                 </span>
+            </div>
+            <!-- /.col-3 -->
         </div>
-        <!-- /.col-3 -->
     </div>
     <!-- /.row -->
 </div>
 <!-- /.container -->
 
-
+<!--<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>-->
 <script src="./js/app.min.js"></script>
 </body>
 </html>
